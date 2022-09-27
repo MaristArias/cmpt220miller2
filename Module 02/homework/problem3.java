@@ -1,7 +1,9 @@
-package Module 02.homework;
 
-public class problem3 {
-    public static void main(String[] args) {
+//package Module 02.homework;
+import java.util.Scanner;
+
+public class Problem3 {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
 		// Prompt the user to enter the number of minutes
@@ -14,6 +16,6 @@ public class problem3 {
 
 		// Display results
 		System.out.println(minutes + " minutes is approximately " + years
-			+ " years and " + days + " days");
-}
+				+ " years and " + days + " days");
+	}
 }
