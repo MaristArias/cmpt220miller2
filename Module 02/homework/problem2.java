@@ -13,3 +13,5 @@ class Test{
 		//compute the coefficient of friction
 		double u =(F-m*a)/(m*g);
 		System.out.printf("The coefficient of friction is %.6f",u);
+    }
+}
