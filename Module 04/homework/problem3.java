@@ -16,7 +16,6 @@ class Main {
         d+=1;
     }
 
-    //print the result, different printing statemetns as per inside and outside root value
     if(outside_root!=1 && inside_root!=1)
       System.out.println("sqrt("+num+") is "+outside_root+"*sqrt("+inside_root+")");
     if(inside_root==1&&outside_root!=1)
