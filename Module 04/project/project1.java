@@ -1,7 +1,7 @@
 package Module 04.project;
 
 import java.util.*;
-public class proj1
+public class project1
 {
     public static double evaluate(final String str) {
     return new Object() {
