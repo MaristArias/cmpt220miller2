@@ -1,6 +1,6 @@
-package Module 05.homework;
+//package Module 05.homework;
 import java.util.Scanner;
-public class Main {
+public class problem1 {
     public static void main(String[] args) {
         //create an instance of Scanner class
         Scanner input = new Scanner(System.in);
