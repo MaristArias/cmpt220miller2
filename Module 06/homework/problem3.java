@@ -1,10 +1,11 @@
-package Module 06.homework;
+
+//package Module 06.homework;
+import java.util.ArrayList;
 
 public class problem3 {
-    import java.util.ArrayList;
- {
     public static void main(String[] args)
     {
+        // You are not supposed to use ArrayLists in this problem
         ArrayList<String>
             list1 = new ArrayList<String>();
   
@@ -35,5 +36,4 @@ public class problem3 {
                            + list1);
     }
 }
-    
-}
+
