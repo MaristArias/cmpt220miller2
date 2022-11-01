@@ -6,7 +6,6 @@ public class project1
     public static double evaluate(final String str) {
     return new Object() {
         int pos = -1, ch;
-        
         void nextChar() {
             ch = (++pos < str.length()) ? str.charAt(pos) : -1;
         }
