@@ -44,10 +44,11 @@ public class GeographicLocation {
                     Math.pow(latitude - location.latitude, 2)
         );
     }
-    public getDirection(GeographicLocation location)
+    public getDirection(GeographicLocation location) {
     double dirLongitude = longitude - location.longitude;
     double dirLatitude = latitude - location.latitude;
-
+    }
+    
 
 }
 }
