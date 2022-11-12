@@ -21,25 +21,25 @@ class Main {
 
     switch (operator) {
 
-      // addition between numbers
+      // addition 
       case '+':
         result = number1 + number2;
         System.out.println(number1 + " + " + number2 + " = " + result);
         break;
 
-      // subtraction between numbers
+      // subtraction 
       case '-':
         result = number1 - number2;
         System.out.println(number1 + " - " + number2 + " = " + result);
         break;
 
-      // multiplication between numbers
+      // multiplication 
       case '*':
         result = number1 * number2;
         System.out.println(number1 + " * " + number2 + " = " + result);
         break;
 
-      // division between numbers
+      // division 
       case '/':
         result = number1 / number2;
         System.out.println(number1 + " / " + number2 + " = " + result);
@@ -51,7 +51,9 @@ class Main {
 
       }
       if (func.equals("sqrt")) x = Math.sqrt(x);
+
       else if (func.equals("sin")) x = Math.sin(Math.toRadians(x));
+
       else if (func.equals("cos")) x = Math.cos(Math.toRadians(x));
       else if (func.equals("tan")) x = Math.tan(Math.toRadians(x));
       else throw new RuntimeException("Unknown function: " + func);
@@ -63,6 +65,33 @@ class Main {
   
   return x;
 }
+    //square root
+      case 'sqrt':
+        result = math.sqrt(number) 
+        System.out.println(number  = + result);
+        break;
+
+        // sin
+        case 'sin':
+        result = math.sin(number) 
+        System.out.println(number  = + result);
+        break;
+
+      // cos
+      case 'cos':
+        result = math.cos(number) 
+        System.out.println(number  = + result);
+        break;
+
+      // tan
+        case 'tan':
+        result = math.tan(number) 
+        System.out.println(number  = + result);
+        break;
+
+      default:
+        System.out.println("Invalid operator!");
+        break;
 .parse();
 
 public static void main(String[] args)
