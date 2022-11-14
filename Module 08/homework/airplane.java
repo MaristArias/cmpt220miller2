@@ -1,8 +1,6 @@
-package Module 08.homework;
-
-public class airplane extends transportationmethod{
+public class Airplane extends TransportationMethod{
     private int numofPass = 0;
-    public airplane(String name, double speed, int number){
+    public Airplane(String name, double speed, int number){
         setName(name);
         setSpeed(speed);
         numofPass= number;

@@ -1,9 +1,8 @@
-package Module 08.homework;
 
-public class ship extends transportationmethod{
-    priavte int numofPass = 0;
+public class Ship extends TransportationMethod{
+    private int numofPass = 0;
 
-    public ship(String name, double speed, int number){
+    public Ship(String name, double speed, int number){
         setName(name);
         setSpeed(speed);
         numofPass = number;

@@ -1,9 +1,8 @@
-package Module 08.homework;
 //subclass
-public class car extends transportationmethod {
+public class Car extends TransportationMethod {
     private int numofPass = 0;
 
-    public car(String name, double speed, int number) {
+    public Car(String name, double speed, int number) {
         setName(name);
         setSpeed(speed);
         numofPass = number;

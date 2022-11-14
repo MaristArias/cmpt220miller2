@@ -1,13 +1,7 @@
-package Module
-
-import javax.sound.midi.Track;
-
-08.homework;
-
-public class train extends transportationmethod {
+public class Train extends TransportationMethod {
     private int numofPass = 0;
 
-    public train(String name, double speed, int number){
+    public Train(String name, double speed, int number){
         setName(name);
         setSpeed(speed);
         numofPass = number;

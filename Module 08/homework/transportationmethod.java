@@ -1,21 +1,31 @@
-package Module 08.homework;
+public class TransportationMethod {
 
-public class transportationmethod {
+    private String name = "";
+    private double speed = 0;
 
-    private String name="";
-    private double speed = 0
-    public void setName(String name) {
+    public TransportationMethod() {
+    }
+
+    public TransportationMethod(String name, double speed) {
         this.name = name;
-}
-    public void setSpeed(double speed){
         this.speed = speed;
     }
-    public String getName(){
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSpeed(double speed) {
+        this.speed = speed;
+    }
+
+    public String getName() {
         return this.name;
     }
-    public double getspeed(){
+
+    public double getspeed() {
         return this.speed;
 
     }
 }
-// 
+//
