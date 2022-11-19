@@ -1,9 +1,7 @@
-package Module 08.homework;
-
-public class cargoship extends container {
+public class CargoShip extends Container {
     private int cargoshipNo;
 
-public cargoship(int containerNo, double weight, String contents){
+public CargoShip(int containerNo, double weight, String contents){
     this.containerNo = containerNo;
     this.weight = weight;
     this.contents = contents;
