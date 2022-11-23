@@ -1,8 +1,10 @@
-package Module 09.homework;
+//package Module 09.homework;
 
-public class PetInterface {
-    public void speak;
-    public String name;
-    public int age;
-    
+public interface PetInterface {
+    void speak();
+
+    String getName();
+
+    int getAge();
+
 }

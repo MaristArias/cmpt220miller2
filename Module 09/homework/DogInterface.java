@@ -1,16 +1,26 @@
-package Module 09.homework;
+//package Module 09.homework;
 
-public class DogInterface extends PetInterface{
+public class DogInterface implements PetInterface {
     private String name;
     private int age;
 
-    public DogInterface(int age, String name)
-    {
+    public DogInterface(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    public void speak(){
-        System.out.println("Woof, I am" + age.getage = this.getage))
+
+    public void speak() {
+        System.out.println("Woof!");
     }
-    
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public int getAge() {
+        return age;
+    }
+
 }

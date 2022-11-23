@@ -1,8 +1,8 @@
-package Module 09.homework;
+//package Module 09.homework;
 
 public class PetOwner{
-    priavte String name;
-    priavte int age;
+    private String name;
+    private int age;
     public PetOwner(){
 
     }
@@ -13,23 +13,23 @@ public class PetOwner{
 
     }
     // return name and age
-    public string GetName() {
+    public String GetName() {
         return name;
     }
     public int getAge(){
         return age;
  
     }
-    public Pet buyPet(String name, int age, String breed) {
+    public Pet buyPet(String name, int age, String type) {
         Pet buyPet = null;
-        if (type = "Cat")
+        if (type.equals("Cat"))
         {
-            pet = Cat(name, age);
+            buyPet = new Cat(name, age);
         }
-        if else(type = "Dog")
+        else if (type.equals("Dog"))
         {
-            pet = Dog(name, age);
+            buyPet = new Dog(name, age);
         }
-        return pet;
+        return buyPet;
     }
 }
