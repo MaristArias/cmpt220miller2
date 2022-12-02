@@ -9,6 +9,7 @@ public class DogInterface extends PetInterface{
         this.name = name;
         this.age = age;
     }
+    //message
     public void speak(){
         System.out.println("Woof, I am" + age.getage = this.getage))
     }

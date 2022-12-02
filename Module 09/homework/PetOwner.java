@@ -20,6 +20,7 @@ public class PetOwner{
         return age;
  
     }
+    // buy cat or dog
     public Pet buyPet(String name, int age, String breed) {
         Pet buyPet = null;
         if (type = "Cat")

@@ -9,7 +9,7 @@ public class Cat extends Pet{
         this.age = age;
     }
     public void speak(){
-        System.out.println(My name is + name.getname);
+        System.out.println("Meow! My name is" + name.getname = this.getName);
 
     }
 }

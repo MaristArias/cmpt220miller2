@@ -11,6 +11,7 @@ public class PetOwnerInterface extends PetInterface {
         this.name = name;
         this.age = age;
     }
+    // get name and age
     public String getName()
     {
         return name;
@@ -19,8 +20,8 @@ public class PetOwnerInterface extends PetInterface {
     {
         return age;
     }
-    public PetInterface buyPet(PetInterface animal)
+    public PetInterface buyPet(PetInterface petint)
     {
-        return animal;
+        return petint;
     }
 }

@@ -12,7 +12,7 @@ public abstract class Pet {
         this.age = age;
     }
     public abstract void speak();
-    
+    // get name and age
     public String getname() {
         return name;
     }
