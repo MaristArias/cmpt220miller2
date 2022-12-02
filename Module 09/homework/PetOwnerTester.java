@@ -1,5 +1,6 @@
-import Module.Cat;
+//import Module.Cat;
 
+<<<<<<< HEAD
 publuc class PetOwnerTester extends PetOwner {
     public static void main (String [] args) {
         PetOwner owner = new PetOwner(olivia,20);
@@ -16,5 +17,14 @@ publuc class PetOwnerTester extends PetOwner {
             Pet owner = owner.buyPet (dog.getName();, dog.getage();, owner.speak();)
             
         }
+=======
+public class PetOwnerTester extends PetOwner {
+    public static void main (String args[]) {
+        PetOwner owner = new PetOwner("olivia",20);
+        Pet pet = owner.buyPet("kitty", 2, "Cat");
+        pet.speak();
+        pet = owner.buyPet("doggy", 3, "Dog");
+        pet.speak();
+>>>>>>> 5e0f47ffde6b638fe627d492714303f45f002099
     }
 }

@@ -1,17 +1,27 @@
-package Module 09.homework;
+//package Module 09.homework;
 
-public class CatInterface extends PetInterface{
+public class CatInterface implements PetInterface {
     private String name;
     private int age;
 
-    public CatInterface(int age, String name)
-    {
+    public CatInterface(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    //message
-    public void speak(){
-        System.out.println("Meow, I am" + age.getage = this.getage)
+
+    // message
+    public void speak() {
+        System.out.println("Meow!");
     }
-    
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public int getAge() {
+        return age;
+    }
+
 }

@@ -1,15 +1,15 @@
-package Module 09.homework;
+//package Module 09.homework;
 
-public class Cat extends Pet{
+public class Cat extends Pet {
     public Cat() {
 
     }
-    Public Cat(String name, int age) {
-        this.name = name;
-        this.age = age;
+
+    public Cat(String name, int age) {
+        super(name, age);
     }
     public void speak(){
-        System.out.println("Meow! My name is" + name.getname = this.getName);
+        System.out.println(My name is + name.getname);
 
     }
 }

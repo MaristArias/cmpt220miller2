@@ -1,11 +1,14 @@
-package Module 09.homework;
+//package Module 09.homework;
 
 
-public class PetOwnerInterface extends PetInterface {
-    {
-        private String name;
-        private int age;
+public class PetOwnerInterface {
+    private String name;
+    private int age;
+    
+    public PetOwnerInterface(){
+
     }
+
     public PetOwnerInterface(String name, int age)
     {
         this.name = name;
