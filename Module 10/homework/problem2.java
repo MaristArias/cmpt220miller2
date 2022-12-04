@@ -1,10 +1,8 @@
-package Module
+//package Module
 
-import javax.management.relation.InvalidRelationIdException;
-
-10.homework;
-
-public class problem2 {
+public class Problem2 {
+    public static void main(String[] args) {
+        
     // radius of circle
     private double radius;
     // number of ojects
@@ -53,4 +51,5 @@ public class problem2 {
     public double getRadius(){
         return radius;
     }
+}
 }
