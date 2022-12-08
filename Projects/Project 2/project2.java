@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+public class Project2 {
   public static void main(String[] args) {
 
     char operator;
