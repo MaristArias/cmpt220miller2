@@ -8,7 +8,7 @@ public class problem2 {
     // radius of circle
     private double radius;
     // number of ojects
-    private static int numberOObjects = 0;
+    private static int numberOfbjects = 0;
     // construct
     public CircleWithRadiusException();{
       this.(1.0);
