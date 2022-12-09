@@ -26,4 +26,7 @@ public class Main {
                 pos [0] = r; pos [1] = c;
                 return;
             }
+            
+        else if (dir == 2) {
+            c++;
 
