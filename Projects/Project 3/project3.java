@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.io*;
 
+// This does not compile.
+
 public class Main {
     static void move (char room [][], int r, int c, int dir, int []pos) {
         // creating r and defining dir as well as using if else to define the positions of the walls
@@ -57,7 +59,8 @@ public class Main {
                 }
                 }
             }
-                 public static void main(String[] args) throws FileNotFoundException {
+
+    public static void main(String[] args) throws FileNotFoundException {
                     Scanner sc = new Scanner (new File ("input.txt"));
                     int house = 1;
                     while (true) {
@@ -98,10 +101,4 @@ public class Main {
     }
 }
 
-
-
-
-
-
-        
-        }
+}
